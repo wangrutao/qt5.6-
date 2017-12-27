@@ -1,6 +1,6 @@
 # qt5.6移植到tiny4412 
 一：
-  下载qt5.60源代码http://download.qt.io/archive/qt/
+  下载qt5.60源代码http://download.qt.io/archive/qt/ <br/>
   解压后，cd qt-everywhere-opensource-src-5.6.0
   vim qtbase/mkspecs/linux-arm-gnueabi-g++/qmake.conf 
   加入下面这三个代码（march就是架构，arm a9用的是armv7架构）
